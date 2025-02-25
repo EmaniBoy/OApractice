@@ -19,7 +19,7 @@ char* encryptNumber(int numbers[], int n){
     }
 
     //create string to store final result
-    char* result = (char*)malloc(3 * sizeof(char)); // "04" + null terminator
+    char* result = (char*)malloc(3 * sizeof(char)); // allocate 3 bytes for memory, 2 bytes for final resulting numbers, 1 byte for null terminator "\0"
     /*
     alternative to sprintf:
 
